@@ -1,0 +1,652 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f7fa;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 92vh;
+    background: url("6374d1fb865bdf8363fbae500429da9b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.header nav{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+}
+
+.header .logo a{
+    position: relative;
+    width: initial;
+    height: 80px;
+    text-align: center;
+    margin: 0px 4px;
+    padding: 20px 0px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+}
+
+.header .logo .fa-solid{
+    padding: 0px 5px;
+}
+
+.header .logo a:hover{
+    color: rgb(222, 185, 2);
+    transition: 1s;
+}
+
+.header .btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header .btn button{
+    background: transparent;
+    color: #fff;
+    border: 2px solid transparent;
+    font-size: 17px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.header .btn button:hover{
+    color: rgb(222, 185, 2);
+}
+
+.header .acc{
+    width: 457px;
+    height: 98px;
+    padding: 37px 0px 0px 88px;
+    font-size: 28px;
+    display: flex;
+}
+
+.header .acc i{
+    cursor: pointer;
+}
+
+.header .acc i:hover{
+    color: rgb(222, 185, 2);
+}
+
+.header .acc .fa-user{
+    padding: 0px 50px;
+}
+
+.header .main{
+    width: 100%;
+    height: 80vh;
+}
+
+.header .main .heading{
+    width: 100%;
+    height: 50vh;
+    padding: 152px 90px;
+}
+
+.header .main .heading .text-2{
+    margin: 70px 0px;
+}
+
+.header .main img{
+    width: 602px;
+    height: 55px;
+}
+
+.header .main h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    height: 50px;
+}
+
+.header .main a{
+    cursor: pointer;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    transition-duration: 130ms;
+}
+
+.header .main .edit{
+    padding: 0px 35px;
+}
+
+.header .main a:hover{
+    color: rgb(222, 185, 2);
+    font-size: 28px;
+}
+
+.header .main button{
+    width: 49px;
+    height: 34px;
+    font-size: 26px;
+    background: transparent;
+    color: #fff;
+    border-radius: 15px;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.header .main button:hover{
+    border-color: rgb(222, 185, 2);
+}
+
+
+
+/*-----------------Section-1 Start----------------*/
+
+.sec-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.sec-1 .main{
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sec-1 .main img{
+    max-width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.sec-1 .main .text{
+    position: absolute;
+    top: 25%;
+    width: 700px;
+    height: 390px;
+    margin: 80px 0px 0px 175px;
+}
+
+.sec-1 .main .text img{
+    width: 220px;
+    cursor: pointer;
+}
+
+.sec-1 .main .text h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 21px 0px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    cursor: pointer;
+    height: 110px;
+}
+
+.sec-1 .main img:hover{
+    transform: scale(1.1);
+}
+
+.sec-1 .main a{
+    cursor: pointer;
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    transition-duration: 130ms;
+}
+
+.sec-1 .main a:hover{
+    color: rgb(222, 185, 2);
+    font-size: 28px;
+}
+
+.sec-1 .main button{
+    width: 40px;
+    height: 33px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border-radius: 15px;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sec-1 .main button:hover{
+    border-color: rgb(222, 185, 2);
+}
+
+
+
+/*-----------------Section-2 Start----------------*/
+
+.sec-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.sec-2 .main{
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sec-2 .main img{
+    max-width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.sec-2 .main .text{
+    position: absolute;
+    top: 25%;
+    width: 700px;
+    height: 390px;
+    margin: 0px 0px 0px 175px;
+}
+
+.sec-2 .main .text img{
+    width: 380px;
+    cursor: pointer;
+}
+
+.sec-2 .main .text h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 21px 0px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    cursor: pointer;
+    height: 210px;
+}
+
+.sec-2 .main img:hover{
+    transform: scale(1.1);
+}
+
+.sec-2 .main a{
+    cursor: pointer;
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    transition-duration: 130ms;
+}
+
+.sec-2 .main a:hover{
+    color: rgb(222, 185, 2);
+    font-size: 28px;
+}
+
+.sec-2 .main button{
+    width: 40px;
+    height: 33px;
+    font-size: 23px;
+    background: transparent;
+    color: #fff;
+    border-radius: 15px;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sec-2 .main button:hover{
+    border-color: rgb(222, 185, 2);
+}
+
+
+
+
+/*--------------------Section-3------------------*/
+
+.sec-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 130px 0px 0px 0px;
+}
+
+.sec-3 .main{
+    width: 1500px;
+}
+
+.sec-3 .main h1{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 40px;
+    color: #242933;
+    padding: 0px 20px;
+    height: 100px;
+    font-weight: 500;
+}
+
+.sec-3 .main .box{
+    display: flex;
+    gap: 40px;
+}
+
+.sec-3 .main .box img{
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.sec-3 .main .box img:hover{
+    transform: scale(1.03);
+}
+
+.sec-3 .box .first-box{
+    background: #fff;
+    border: 2px solid #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 930px;
+}
+
+
+
+/*------------------------------------BOX-1----------------------------------------*/
+
+.sec-3 .box .first-box .image-1{
+    height: 370px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sec-3 .box .first-box .image-1 .text{
+    position: absolute;
+    top: 55%;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    margin: 70px 0px 0px 45px;
+    height: 30px;
+    font-size: 19px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+
+.sec-3 .box .first-box .image-1 .text h2{
+    width: 275px;
+    font-size: 25px;
+}
+
+.sec-3 .box .first-box .image-2{
+    height: 350px;
+    cursor: pointer;
+}
+
+.sec-3 .box .first-box .image-2 img{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sec-3 .box .first-box .image-2 .text{
+    color: #000;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sec-3 .box .first-box .image-2 .text p{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec-3 .box .first-box .image-2 .text h2{
+    
+    height: 122px;
+    padding: 40px 34px;
+    font-weight: 500;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    cursor: pointer;
+}
+
+
+
+/*------------------------------------BOX-2----------------------------------------*/
+
+
+.sec-3 .box .second-box .image-1{
+    position: relative;
+    cursor: pointer;
+}
+
+.sec-3 .box .second-box .image-1 img{
+    height: 780px;
+}
+
+.sec-3 .box .second-box .image-1 .text{
+    position: absolute;
+    top: 68%;
+    width: 250px;
+    height: 30px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 17px;
+    margin: 70px 0px 0px 40px;
+}
+
+.sec-3 .box .second-box .image-1 .text h2{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    width: 400px;
+}
+
+
+/*------------------------------------BOX-3----------------------------------------*/
+
+.sec-3 .box .third-box{
+    background: #fff;
+    border: 2px solid #fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 930px;
+}
+
+.sec-3 .box .third-box .image-1{
+    height: 370px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sec-3 .box .third-box .image-1 .text{
+    position: absolute;
+    top: 55%;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    margin: 35px 0px 0px 43px;
+    height: 30px;
+    font-size: 19px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+
+.sec-3 .box .third-box .image-1 .text h2{
+    width: 350px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sec-3 .box .third-box .image-2{
+    height: 350px;
+    cursor: pointer;
+}
+
+.sec-3 .box .third-box .image-2 img{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sec-3 .box .third-box .image-2 .text{
+    color: #000;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sec-3 .box .third-box .image-2 .text p{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec-3 .box .third-box .image-2 .text h2{
+    
+    height: 122px;
+    padding: 60px 34px;
+    font-weight: 500;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    cursor: pointer;
+}
+
+
+
+
+/*--------------------Footer------------------*/
+
+.footer{
+    width: 100%;
+    
+}
+
+.footer .main{
+    background-color: #242933;
+    margin-top: 85px;
+}
+
+.footer .main .box-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 90px 10px;
+    margin: 0px 90px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+
+.footer .box-1 ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 300px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer .box-1 ul a{
+    text-decoration: none;
+    color: #8a8f99;
+}
+
+.footer .box-1 ul h2{
+    padding: 0px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.footer .box-1 a:hover{
+    color: rgb(222, 185, 2);
+}
+
+.footer .box-1 .first-box{
+    width: 750px;
+}
+
+.footer .box-1 .second-box{
+    padding: 0px 0px 0px 150px;
+}
+
+.footer .box-1 .second-box .call a{
+    font-size: 20px;
+    word-spacing: 2px;
+    cursor: auto;
+    text-decoration: none;
+    color: #8a8f99;
+}
+
+.footer .box-1 .second-box a span{
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 0px 0px 30px;
+}
+
+.footer .box-1 .second-box i{
+    font-size: 30px;
+}
+
+.footer .box-1 .second-box a{
+    text-decoration: none;
+    color: #8a8f99;
+}
+
+.footer .second-box #icons{
+    padding: 0px 13px;
+}
+
+.footer .second-box .email-box{
+    cursor: pointer;
+}
+
+.footer .second-box .email-box a:hover{
+    color: rgb(222, 185, 2);
+}
+
+.footer .second-box .message-box{
+    cursor: pointer;
+}
+
+.footer .second-box .message-box a:hover{
+    color: rgb(222, 185, 2);
+}
+
+.footer .second-box .follow-icon a:hover{
+    color: rgb(222, 185, 2);
+}
+
+.footer .second-box .follow-icon .fa-brands{
+    color: #fff;
+    font-size: 40px;
+    padding: 18px 0px 0px 33px;
+}
+
+.footer .box-2 .text{
+    margin: 0px 100px;
+    border-top: 1px solid #45474d;
+    padding: 31px 0px;
+    font-size: 11px;
+    line-height: 24px;
+    color: #8a8f99;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    word-spacing: 4px;
+}
